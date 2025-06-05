@@ -8,11 +8,11 @@
 
 /*Mise en forme des liens*/
 
-.navigation a{
-    color:#000000
+.navigation a {
+    color: #000000
 }
 
-.navigation a:hover{
+.navigation a:hover {
     color: #9d2222;
 }
 
@@ -22,7 +22,7 @@ body {
     background: #620e0e;
     min-width: 1000px;
     width: 100%;
-    height: 185vh;
+    height: 110vh;
 }
 
 /*Mise en forme du header*/
@@ -54,19 +54,19 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.adresse h1{
+.adresse h1 {
     margin: 5px;
     text-align: center;
     font-size: 18px;
 }
 
-.adresse h2{
-    margin: 28px; 
+.adresse h2 {
+    margin: 28px;
     text-align: center;
     font-size: 38px;
 }
 
-.number{
+.number {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -74,12 +74,12 @@ header {
     color: #ffffff;
 }
 
-.number img{
+.number img {
     width: 25px;
     height: 25px;
 }
 
-.socials{
+.socials {
     display: flex;
     flex-direction: column;
     width: 230px;
@@ -87,40 +87,40 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.socials-linkFB{
+.socials-linkFB {
     margin-top: 50px;
     justify-content: center;
 }
 
-.FB img{
+.FB img {
     width: 25px;
     height: 25px;
 }
 
-.FB{
+.FB {
     display: flex;
     flex-direction: row;
     font-size: 18px;
     color: #ffffff;
 }
 
-.GB img{
+.GB img {
     width: 25px;
     height: 25px;
 }
 
-.GB{
+.GB {
     display: flex;
     flex-direction: row;
     font-size: 18px;
     color: #ffffff;
 }
 
-h4{
+h4 {
     margin-left: 5px;
 }
 
-h3{
+h3 {
     margin-left: 5px;
 }
 
@@ -156,7 +156,7 @@ li {
 
 /*Mise en forme du main*/
 
-.week{
+.week {
     font-size: 15px;
     display: flex;
     height: 150px;
@@ -165,9 +165,37 @@ li {
     color: rgb(255, 255, 255)
 }
 
-.imgweek{
+.imgweek {
     display: flex;
     height: 225px;
     justify-content: space-around;
     align-items: center;
+}
+
+.nextweek {
+    font-size: 15px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255)
+}
+
+.imgnextweek {
+    display: flex;
+    height: 225px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Mise en forme du footer*/
+
+footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    font-size: 6px;
+    color: rgb(255, 255, 255)
 }
