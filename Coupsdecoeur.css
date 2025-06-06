@@ -163,7 +163,7 @@ li {
 
 .comics {
     display: flex;
-    height: 500px;
+    height: 550px;
     justify-content: space-around;
     align-items: center;
 }
