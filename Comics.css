@@ -8,11 +8,19 @@
 
 /*Mise en forme des liens*/
 
-.navigation a{
-    color:#000000
+.navigation a {
+    color: #000000
 }
 
-.navigation a:hover{
+.navigation a:hover {
+    color: #9d2222;
+}
+
+.pages a {
+    color: #000000;
+}
+
+.pages a:hover {
     color: #9d2222;
 }
 
@@ -22,7 +30,7 @@ body {
     background: #620e0e;
     min-width: 1000px;
     width: 100%;
-    height: 185vh;
+    height: 180vh;
 }
 
 /*Mise en forme du header*/
@@ -54,19 +62,19 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.adresse h1{
+.adresse h1 {
     margin: 5px;
     text-align: center;
     font-size: 18px;
 }
 
-.adresse h2{
-    margin: 28px; 
+.adresse h2 {
+    margin: 28px;
     text-align: center;
     font-size: 38px;
 }
 
-.number{
+.number {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -74,12 +82,12 @@ header {
     color: #ffffff;
 }
 
-.number img{
+.number img {
     width: 25px;
     height: 25px;
 }
 
-.socials{
+.socials {
     display: flex;
     flex-direction: column;
     width: 230px;
@@ -87,40 +95,40 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.socials-linkFB{
+.socials-linkFB {
     margin-top: 50px;
     justify-content: center;
 }
 
-.FB img{
+.FB img {
     width: 25px;
     height: 25px;
 }
 
-.FB{
+.FB {
     display: flex;
     flex-direction: row;
     font-size: 18px;
     color: #ffffff;
 }
 
-.GB img{
+.GB img {
     width: 25px;
     height: 25px;
 }
 
-.GB{
+.GB {
     display: flex;
     flex-direction: row;
     font-size: 18px;
     color: #ffffff;
 }
 
-h4{
+h4 {
     margin-left: 5px;
 }
 
-h3{
+h3 {
     margin-left: 5px;
 }
 
@@ -152,4 +160,67 @@ li {
     border-radius: 20px;
     background: #ffffff;
     border: 2px solid black;
+}
+
+/*mise en forme du main*/
+
+.title {
+    font-size: 15px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255)
+}
+
+.comics {
+    height: 500px;
+}
+
+.row1 {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row2 {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row3 {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links li {
+    margin-left: 10px;
+}
+.links li a {
+    width: 100%;
+    height: 20px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+/*Mise en forme du footer*/
+
+footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    font-size: 6px;
+    color: rgb(255, 255, 255)
 }
