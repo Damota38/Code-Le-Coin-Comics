@@ -8,11 +8,11 @@
 
 /*Mise en forme des liens*/
 
-.navigation a{
-    color:#000000
+.navigation a {
+    color: #000000
 }
 
-.navigation a:hover{
+.navigation a:hover {
     color: #9d2222;
 }
 
@@ -23,6 +23,9 @@ body {
     min-width: 1000px;
     width: 100%;
     height: 185vh;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Mise en forme du header*/
@@ -54,19 +57,19 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.adresse h1{
+.adresse h1 {
     margin: 5px;
     text-align: center;
     font-size: 18px;
 }
 
-.adresse h2{
-    margin: 28px; 
+.adresse h2 {
+    margin: 28px;
     text-align: center;
     font-size: 38px;
 }
 
-.number{
+.number {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -74,12 +77,12 @@ header {
     color: #ffffff;
 }
 
-.number img{
+.number img {
     width: 25px;
     height: 25px;
 }
 
-.socials{
+.socials {
     display: flex;
     flex-direction: column;
     width: 230px;
@@ -87,40 +90,40 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.socials-linkFB{
+.socials-linkFB {
     margin-top: 50px;
     justify-content: center;
 }
 
-.FB img{
+.FB img {
     width: 25px;
     height: 25px;
 }
 
-.FB{
+.FB {
     display: flex;
     flex-direction: row;
     font-size: 18px;
     color: #ffffff;
 }
 
-.GB img{
+.GB img {
     width: 25px;
     height: 25px;
 }
 
-.GB{
+.GB {
     display: flex;
     flex-direction: row;
     font-size: 18px;
     color: #ffffff;
 }
 
-h4{
+h4 {
     margin-left: 5px;
 }
 
-h3{
+h3 {
     margin-left: 5px;
 }
 
@@ -156,13 +159,13 @@ li {
 
 /*Mise en forme du main*/
 
-main{
+main {
     background-image: url(https://i.postimg.cc/BQfSW6bd/Image-background-PNG.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-.title{
+.title {
     font-size: 20px;
     display: flex;
     height: 180px;
@@ -171,24 +174,24 @@ main{
     color: rgb(255, 255, 255)
 }
 
-.title img{
+.title img {
     width: 100px;
     height: 100px;
 }
 
-.comic{
+.comic {
     display: flex;
     flex-direction: row;
     height: 600px;
 }
 
-.comic img{
+.comic img {
     height: 550px;
     margin-left: 20px;
     border: 4px solid #000000;
 }
 
-.infos h2{
+.infos h2 {
     font-size: 30px;
     height: 250px;
     margin-top: 50px;
@@ -198,7 +201,7 @@ main{
     border: 4px solid black;
 }
 
-.infos h3{
+.infos h3 {
     width: 400px;
     height: 205px;
     font-size: 25px;
@@ -209,25 +212,25 @@ main{
     border: 4px solid black;
 }
 
-.avis h1{
-   color: #ffffff;
-   margin-left: 25px;
-   height: 80px;
+.avis h1 {
+    color: #ffffff;
+    margin-left: 25px;
+    height: 80px;
 }
 
-.comms{
+.comms {
     display: flex;
     height: 180px;
     justify-content: space-around;
     flex-direction: row;
 }
 
-.comms img{
+.comms img {
     width: 20px;
     height: 20px;
 }
 
-.comm1{
+.comm1 {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -239,7 +242,7 @@ main{
     border: 4px solid black;
 }
 
-.comm2{
+.comm2 {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -251,7 +254,7 @@ main{
     border: 4px solid black;
 }
 
-.comm3{
+.comm3 {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -263,12 +266,12 @@ main{
     border: 4px solid black;
 }
 
-.pluscomics{
+.pluscomics {
     display: flex;
     justify-content: center;
 }
 
-.imgcomics{
+.imgcomics {
     display: flex;
     height: 500px;
     justify-content: space-around;
@@ -277,8 +280,8 @@ main{
 
 /*Mise en forme du footer*/
 
-.copyright{
-    display:flex;
+.copyright {
+    display: flex;
     height: 70px;
     justify-content: center;
     align-items: end;

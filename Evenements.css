@@ -22,6 +22,9 @@ body {
     background: #620e0e;
     min-width: 1000px;
     width: 100%;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Mise en forme du header*/
@@ -155,9 +158,9 @@ li {
 
 /*Mise en forme du main*/
 
-main{
+main {
     background-image: url(https://i.postimg.cc/BQfSW6bd/Image-background-PNG.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 

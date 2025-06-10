@@ -6,11 +6,11 @@
 
 /*Mise en forme des liens*/
 
-.navigation a{
-    color:#000000
+.navigation a {
+    color: #000000
 }
 
-.navigation a:hover{
+.navigation a:hover {
     color: #9d2222;
 }
 
@@ -20,6 +20,9 @@ body {
     background: #620e0e;
     min-width: 1000px;
     width: 100%;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Mise en forme du header*/
@@ -51,19 +54,19 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.adresse h1{
+.adresse h1 {
     margin: 5px;
     text-align: center;
     font-size: 18px;
 }
 
-.adresse h2{
-    margin: 28px; 
+.adresse h2 {
+    margin: 28px;
     text-align: center;
     font-size: 38px;
 }
 
-.number{
+.number {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -71,12 +74,12 @@ header {
     color: #ffffff;
 }
 
-.number img{
+.number img {
     width: 25px;
     height: 25px;
 }
 
-.socials{
+.socials {
     display: flex;
     flex-direction: column;
     width: 230px;
@@ -84,40 +87,40 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.socials-linkFB{
+.socials-linkFB {
     margin-top: 50px;
     justify-content: center;
 }
 
-.FB img{
+.FB img {
     width: 25px;
     height: 25px;
 }
 
-.FB{
+.FB {
     display: flex;
     flex-direction: row;
     font-size: 18px;
     color: #ffffff;
 }
 
-.GB img{
+.GB img {
     width: 25px;
     height: 25px;
 }
 
-.GB{
+.GB {
     display: flex;
     flex-direction: row;
     font-size: 18px;
     color: #ffffff;
 }
 
-h4{
+h4 {
     margin-left: 5px;
 }
 
-h3{
+h3 {
     margin-left: 5px;
 }
 
@@ -153,13 +156,13 @@ li {
 
 /*mise en forme du main*/
 
-main{
+main {
     background-image: url(https://i.postimg.cc/BQfSW6bd/Image-background-PNG.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-.title{
+.title {
     font-size: 15px;
     display: flex;
     height: 150px;
@@ -168,15 +171,15 @@ main{
     color: rgb(255, 255, 255)
 }
 
-.editeurs{
+.editeurs {
     display: flex;
     height: 350px;
     justify-content: space-around;
     align-items: center;
 }
 
-.copyright{
-    display:flex;
+.copyright {
+    display: flex;
     height: 210px;
     justify-content: center;
     align-items: end;

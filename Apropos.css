@@ -8,11 +8,11 @@
 
 /*Mise en forme des liens*/
 
-.navigation a{
-    color:#000000
+.navigation a {
+    color: #000000
 }
 
-.navigation a:hover{
+.navigation a:hover {
     color: #9d2222;
 }
 
@@ -22,6 +22,10 @@ body {
     background: #620e0e;
     min-width: 1000px;
     width: 100%;
+    font-style: normal;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Mise en forme du header*/
@@ -53,19 +57,19 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.adresse h1{
+.adresse h1 {
     margin: 5px;
     text-align: center;
     font-size: 18px;
 }
 
-.adresse h2{
-    margin: 28px; 
+.adresse h2 {
+    margin: 28px;
     text-align: center;
     font-size: 38px;
 }
 
-.number{
+.number {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -73,12 +77,12 @@ header {
     color: #ffffff;
 }
 
-.number img{
+.number img {
     width: 25px;
     height: 25px;
 }
 
-.socials{
+.socials {
     display: flex;
     flex-direction: column;
     width: 230px;
@@ -86,40 +90,40 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.socials-linkFB{
+.socials-linkFB {
     margin-top: 50px;
     justify-content: center;
 }
 
-.FB img{
+.FB img {
     width: 25px;
     height: 25px;
 }
 
-.FB{
+.FB {
     display: flex;
     flex-direction: row;
     font-size: 18px;
     color: #ffffff;
 }
 
-.GB img{
+.GB img {
     width: 25px;
     height: 25px;
 }
 
-.GB{
+.GB {
     display: flex;
     flex-direction: row;
     font-size: 18px;
     color: #ffffff;
 }
 
-h4{
+h4 {
     margin-left: 5px;
 }
 
-h3{
+h3 {
     margin-left: 5px;
 }
 
@@ -153,13 +157,13 @@ li {
     border: 2px solid black;
 }
 
-main{
+main {
     background-image: url(https://i.postimg.cc/BQfSW6bd/Image-background-PNG.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-.title{
+.title {
     font-size: 15px;
     display: flex;
     height: 150px;
@@ -168,20 +172,20 @@ main{
     color: rgb(255, 255, 255)
 }
 
-.about{
+.about {
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #000000;
 }
 
-.about img{
+.about img {
     margin-left: 70px;
     width: 380px;
     height: 380px;
 }
 
-.about p{
+.about p {
     width: 1000px;
     padding: 10px;
     font-size: 23px;
@@ -191,7 +195,7 @@ main{
     border: 4px solid black;
 }
 
-.locandfounder{
+.locandfounder {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -200,20 +204,20 @@ main{
     height: 500px;
 }
 
-.localisation{
+.localisation {
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #000000;
 }
 
-.localisation img{
+.localisation img {
     margin-right: 10px;
     width: 330px;
     height: 330px;
 }
 
-.localisation p{
+.localisation p {
     width: 450px;
     font-size: 23px;
     padding: 10px;
@@ -224,18 +228,18 @@ main{
     text-align: center;
 }
 
-.founder{
+.founder {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #000000;
 }
 
-.founder img{
+.founder img {
     height: 320px;
 }
 
-.founder p{
+.founder p {
     width: 350px;
     padding: 10px;
     font-size: 23px;
@@ -245,7 +249,7 @@ main{
     text-align: center;
 }
 
-.bookseller{
+.bookseller {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,7 +258,7 @@ main{
     height: 200px;
 }
 
-.bookseller p{
+.bookseller p {
     width: 350px;
     font-size: 23px;
     padding: 10px;
@@ -264,7 +268,7 @@ main{
     text-align: center;
 }
 
-.copyright{
+.copyright {
     display: flex;
     height: 200px;
     justify-content: center;
