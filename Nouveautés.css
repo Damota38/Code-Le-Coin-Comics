@@ -198,12 +198,12 @@ main{
 
 /*Mise en forme du footer*/
 
-footer{
+.copyright{
     display: flex;
     height: 50px;
     justify-content: center;
     align-items: end;
     text-align: center;
-    font-size: 6px;
+    font-size: 15px;
     color: rgb(255, 255, 255)
 }

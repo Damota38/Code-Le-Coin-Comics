@@ -277,7 +277,7 @@ main{
 
 /*Mise en forme du footer*/
 
-footer{
+.copyright{
     display:flex;
     height: 70px;
     justify-content: center;

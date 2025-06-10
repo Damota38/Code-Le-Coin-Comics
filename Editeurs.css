@@ -20,7 +20,6 @@ body {
     background: #620e0e;
     min-width: 1000px;
     width: 100%;
-    height: 100vh;
 }
 
 /*Mise en forme du header*/
@@ -176,14 +175,12 @@ main{
     align-items: center;
 }
 
-/*Mise en forme du footer*/
-
-footer{
+.copyright{
     display:flex;
-    height: 170px;
+    height: 210px;
     justify-content: center;
     align-items: end;
     text-align: center;
-    font-size: 7px;
+    font-size: 15px;
     color: rgb(255, 255, 255)
 }
