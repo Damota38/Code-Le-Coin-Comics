@@ -17,19 +17,19 @@
 }
 
 .voirplusnouveautés a {
-    color: #ffffff;
+    color: #000000;
 }
 
 .voirplusnouveautés a:hover {
-    color: #000000;
-}
-
-.voirplusevents a {
     color: #ffffff;
 }
 
-.voirplusevents a:hover {
+.voirplusevents a {
     color: #000000;
+}
+
+.voirplusevents a:hover {
+    color: #ffffff;
 }
 
 /* Mise en forme du body */
@@ -187,7 +187,7 @@ main {
     height: 150px;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255)
+    color: rgb(0, 0, 0)
 }
 
 .imgevents {
@@ -203,7 +203,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgb(255, 255, 255)
+    color: rgb(0, 0, 0)
 }
 
 /*Nouveautés*/
@@ -214,7 +214,7 @@ main {
     height: 150px;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255)
+    color: rgb(0, 0, 0)
 }
 
 .imgnouveautés {
@@ -230,7 +230,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgb(255, 255, 255)
+    color: rgb(0, 0, 0)
 }
 
 /*Copyright*/
