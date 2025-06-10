@@ -161,6 +161,14 @@ li {
     color: rgb(255, 255, 255)
 }
 
+/*Mise en forme du main*/
+
+main{
+   background-image: url(https://i.postimg.cc/BQfSW6bd/Image-background-PNG.png);
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+
 .comics {
     display: flex;
     height: 550px;
