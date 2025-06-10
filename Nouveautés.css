@@ -156,6 +156,12 @@ li {
 
 /*mise en forme du main*/
 
+main{
+    background-image: url(https://i.postimg.cc/BQfSW6bd/Image-background-PNG.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
 .title{
     font-size: 15px;
     display: flex;
