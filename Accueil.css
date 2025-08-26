@@ -273,4 +273,26 @@ h7 {
     gap: 30px;
     margin-left: 120px;
 }
+
+main {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+}
+
+@media (max-width: 425px) {
+    .banner {
+    }
+    .banner h1,
+    .banner h2,
+    .banner h3,
+    .banner h4 {
+        font-size: 10px;
+    }
+    ul {
+        font-size: 7px;
+        text-align: center;
+    }
+
 }
