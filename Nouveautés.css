@@ -172,7 +172,7 @@ main {
 }
 
 .row1 {
-    display: grid;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }

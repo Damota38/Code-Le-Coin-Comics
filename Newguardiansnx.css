@@ -20,9 +20,7 @@
 
 body {
     background: #620e0e;
-    min-width: 1000px;
-    width: 100%;
-    height: 185vh;
+    height: auto;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
@@ -141,16 +139,14 @@ ul {
     padding: 8px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-content: space-around;
     align-items: center;
-    /* border-style: solid; */
     list-style: none;
 }
 
 li {
     padding: 8px;
-    margin-left: 100px;
     margin-top: 0px;
     border-radius: 20px;
     background: #ffffff;
@@ -163,6 +159,7 @@ main {
     background-image: url(https://i.postimg.cc/BQfSW6bd/Image-background-PNG.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
 }
 
 .title {
@@ -193,7 +190,6 @@ main {
 
 .infos h2 {
     font-size: 23px;
-    height: 250px;
     margin-top: 50px;
     margin-left: 10px;
     border-radius: 20px;
@@ -203,8 +199,8 @@ main {
 
 .infos h3 {
     width: 400px;
-    height: 205px;
-    font-size: 19px;
+    height: auto;
+    font-size: 17px;
     margin-top: 50px;
     margin-left: 10px;
     border-radius: 20px;
@@ -273,7 +269,7 @@ main {
 
 .imgcomics {
     display: flex;
-    height: 500px;
+    height: auto;
     justify-content: space-around;
     align-items: center;
 }
@@ -288,4 +284,187 @@ main {
     text-align: center;
     font-size: 16px;
     color: rgb(255, 255, 255)
+}
+
+@media (max-width :768px) {
+
+    .adresse h2 {
+        font-size: 25px;
+    }
+
+.navigation {
+    font-size: 10px;
+    justify-content: center;
+}
+
+main {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.comic {
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+}
+
+.imgcomics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-left: 65px;
+    margin-bottom: 40px;
+}
+
+.infos h2 {
+    font-size: 14px;
+    height: 250px;
+    width: 365px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.infos h3 {
+    width: 365px;
+    height: 205px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.comm1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    height: 80px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.comm2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    height: 80px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.comm3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    height: 80px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+@media (max-width: 425px) {
+    .banner {
+    }
+    .banner h1,
+    .banner h2,
+    .banner h3,
+    .banner h4 {
+        font-size: 10px;
+    }
+    ul {
+        font-size: 7px;
+        text-align: center;
+    }
+
+   .comic img {
+    height: 100px;
+    margin-left: 20px;
+    border: 3px solid #000000;
+}
+
+.infos h2 {
+    width: 300px;
+    font-size: 12.5px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.infos h3 {
+    width: 300px;
+    height: auto;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.avis h1 {
+    color: #000000;
+    margin-left: 25px;
+    height: 80px;
+}
+
+.comm1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 8px;
+    color: #000000;
+    height: 80px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.comm2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 8px;
+    color: #000000;
+    height: 80px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.comm3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 8px;
+    color: #000000;
+    height: 80px;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.imgcomics {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-around;
+    margin-left: 8px;
+}
+
+}
+
 }
