@@ -189,7 +189,7 @@ main {
 
 .imgnextweek {
     display: flex;
-    height: 225px;
+    height: auto;
     justify-content: space-around;
     align-items: center;
 }
@@ -206,49 +206,62 @@ main {
     color: rgb(255, 255, 255);
 }
 
+@media (max-width :1024px) {
+
+    .imgweek {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        height: auto;
+        margin-left: 65px;
+    }
+
+}
+
 @media (max-width :768px) {
 
     .adresse h2 {
         font-size: 25px;
     }
 
-.navigation {
-    font-size: 10px;
-    justify-content: center;
-}
+    .navigation {
+        font-size: 10px;
+        justify-content: center;
+    }
 
-.imgweek {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    height: auto;
-    margin-left: 65px;
-}
+    .imgweek {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        height: auto;
+        margin-left: 65px;
+    }
 
-.imgnextweek {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    height: auto;
-    margin-left: 65px;
-}
+    .imgnextweek {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        height: auto;
+        margin-left: 65px;
+    }
 
-main {
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+    main {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
 }
 
 @media (max-width: 425px) {
-    .banner {
-    }
+    .banner {}
+
     .banner h1,
     .banner h2,
     .banner h3,
     .banner h4 {
         font-size: 10px;
     }
+
     ul {
         font-size: 7px;
         text-align: center;
