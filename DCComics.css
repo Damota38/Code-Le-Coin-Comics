@@ -20,8 +20,7 @@
 
 body {
     background: #620e0e;
-    min-width: 1000px;
-    width: 100%;
+    height: auto;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
@@ -140,16 +139,14 @@ ul {
     padding: 8px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-content: space-around;
     align-items: center;
-    /* border-style: solid; */
     list-style: none;
 }
 
 li {
     padding: 8px;
-    margin-left: 100px;
     margin-top: 0px;
     border-radius: 20px;
     background: #ffffff;
@@ -162,6 +159,7 @@ main {
     background-image: url(https://i.postimg.cc/BQfSW6bd/Image-background-PNG.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
 }
 
 .title {
@@ -202,7 +200,6 @@ main {
 
 .comicsdc {
     display: flex;
-    height: 610px;
     justify-content: space-around;
     align-items: center;
 }
@@ -215,4 +212,72 @@ main {
     text-align: center;
     font-size: 15px;
     color: rgb(255, 255, 255)
+}
+
+@media (max-width :768px) {
+
+    .adresse h2 {
+        font-size: 25px;
+    }
+
+    .navigation {
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    .editeur img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .editeur h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        background: #ffffff;
+        border: 4px solid #000000;
+    }
+
+    .comicsdc {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-left: 65px;
+    }
+
+    main {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    @media (max-width: 425px) {
+        .banner {}
+
+        .banner h1,
+        .banner h2,
+        .banner h3,
+        .banner h4 {
+            font-size: 10px;
+        }
+
+        ul {
+            font-size: 7px;
+            text-align: center;
+        }
+
+        .editeur img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .editeur h2 {
+            font-size: 15px;
+            margin-bottom: 40px;
+            border-radius: 20px;
+            background: #ffffff;
+            border: 4px solid #000000;
+        }
+
+    }
+
 }
