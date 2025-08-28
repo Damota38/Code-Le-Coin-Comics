@@ -20,8 +20,7 @@
 
 body {
     background: #620e0e;
-    min-width: 1000px;
-    width: 100%;
+    height: auto;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
@@ -140,16 +139,14 @@ ul {
     padding: 8px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-content: space-around;
     align-items: center;
-    /* border-style: solid; */
     list-style: none;
 }
 
 li {
     padding: 8px;
-    margin-left: 100px;
     margin-top: 0px;
     border-radius: 20px;
     background: #ffffff;
@@ -162,6 +159,7 @@ main {
     background-image: url(https://i.postimg.cc/BQfSW6bd/Image-background-PNG.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
 }
 
 .offres {
@@ -175,7 +173,7 @@ main {
 
 .bookcovers {
     display: flex;
-    height: 450px;
+    height: auto;
     justify-content: space-around;
     align-items: center;
 }
@@ -184,10 +182,67 @@ main {
 
 .copyright {
     display: flex;
-    height: 110px;
+    height: 178px;
     justify-content: center;
     align-items: end;
     text-align: center;
     font-size: 15px;
     color: rgb(255, 255, 255)
+}
+
+@media (max-width :1024px) {
+
+    .adresse h2 {
+        font-size: 25px;
+    }
+
+.navigation {
+    font-size: 10px;
+    justify-content: center;
+}
+
+.bookcovers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 30px;
+    margin-left: 180px;
+    margin-bottom: 40px;
+}
+
+main {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+}
+
+@media (max-width :768px) {
+
+    .bookcovers {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .banner {
+    }
+    .banner h1,
+    .banner h2,
+    .banner h3,
+    .banner h4 {
+        font-size: 10px;
+    }
+    ul {
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .bookcovers {
+        margin-left: 10px;
+    }
+
+    .bookcovers img {
+        width: 400px;
+    }
+
 }
