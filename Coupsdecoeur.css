@@ -18,9 +18,7 @@
 
 body {
     background: #620e0e;
-    min-width: 1000px;
-    width: 100%;
-    height: 105vh;
+    height: auto;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
@@ -139,16 +137,14 @@ ul {
     padding: 8px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-content: space-around;
     align-items: center;
-    /* border-style: solid; */
     list-style: none;
 }
 
 li {
     padding: 8px;
-    margin-left: 100px;
     margin-top: 0px;
     border-radius: 20px;
     background: #ffffff;
@@ -174,14 +170,12 @@ main {
 
 .comics {
     display: flex;
-    height: 550px;
     justify-content: space-around;
     align-items: center;
 }
 
 .avis {
     display: flex;
-    height: 130px;
     justify-content: space-around;
     flex-direction: row;
 }
@@ -259,4 +253,191 @@ main {
     text-align: center;
     font-size: 15px;
     color: rgb(255, 255, 255)
+}
+
+@media (max-width :1024px) {
+
+.avis1 {
+    font-size: 10px;
+}
+
+.avis2 {
+    font-size: 10px;
+}
+
+.avis3 {
+    font-size: 10px;
+}
+
+.avis4 {
+    font-size: 10px;
+}
+
+.avis5 {
+    font-size: 10px;
+}
+
+}
+
+@media (max-width :768px) {
+
+    .adresse h2 {
+        font-size: 25px;
+    }
+
+.navigation {
+    font-size: 10px;
+    justify-content: center;
+}
+
+main {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.comics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-left: 65px;
+    margin-bottom: 40px;
+}
+
+.avis1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.avis2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.avis3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.avis4 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.avis5 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+@media (max-width: 425px) {
+    .banner {
+    }
+    .banner h1,
+    .banner h2,
+    .banner h3,
+    .banner h4 {
+        font-size: 10px;
+    }
+    ul {
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .comics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-left: 65px;
+    margin-bottom: 40px;
+}
+
+.avis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    /* margin-left: 10px; */
+    margin-bottom: 40px;
+}
+
+.avis1 {
+    font-size: 10px;
+    color: #000000;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.avis2 {
+    font-size: 10px;
+    color: #000000;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.avis3 {
+    font-size: 10px;
+    color: #000000;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.avis4 {
+    font-size: 10px;
+    color: #000000;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+.avis5 {
+    font-size: 10px;
+    color: #000000;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    border: 4px solid black;
+}
+
+}
+
 }
