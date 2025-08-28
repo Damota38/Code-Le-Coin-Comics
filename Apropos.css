@@ -20,8 +20,6 @@
 
 body {
     background: #620e0e;
-    min-width: 1000px;
-    width: 100%;
     font-style: normal;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
@@ -141,16 +139,14 @@ ul {
     padding: 8px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-content: space-around;
     align-items: center;
-    /* border-style: solid; */
     list-style: none;
 }
 
 li {
     padding: 8px;
-    margin-left: 100px;
     margin-top: 0px;
     border-radius: 20px;
     background: #ffffff;
@@ -161,6 +157,7 @@ main {
     background-image: url(https://i.postimg.cc/BQfSW6bd/Image-background-PNG.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
 }
 
 .title {
@@ -276,4 +273,112 @@ main {
     text-align: center;
     font-size: 15px;
     color: rgb(255, 255, 255)
+}
+
+@media (max-width :1024px) {
+
+    .founder {
+        margin-top: 200px;
+    }
+
+    .founder img {
+        height: 200px;
+    }
+
+    .founder p {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .localisation img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .localisation p {
+        font-size: 20px;
+    }
+
+}
+@media (max-width :768px) {
+
+    .adresse h2 {
+        font-size: 25px;
+    }
+
+.navigation {
+    font-size: 10px;
+    justify-content: center;
+}
+
+.about {
+    flex-direction: column;
+}
+
+.about p {
+    font-size: 18px;
+    width: 700px;
+    margin-left: 1px;
+}
+
+.localisation {
+    flex-direction: column;
+}
+
+.bookseller {
+    margin-top: 100px;
+}
+
+main {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+}
+
+@media (max-width: 425px) {
+    .banner {
+    }
+    .banner h1,
+    .banner h2,
+    .banner h3,
+    .banner h4 {
+        font-size: 10px;
+    }
+    ul {
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .about img {
+        margin-left: 15px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .about p {
+        width: 350px;
+    }
+
+    .locandfounder {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .localisation {
+        width: 100%;
+    }
+
+    .localisation p {
+        margin-right: 0px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        width: 400px;
+    }
+
+    .localisation img {
+        margin-bottom: 60px;
+    }
 }
