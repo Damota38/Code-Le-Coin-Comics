@@ -305,16 +305,16 @@ main {
     }
 
     .logo img {
-        width: 100px;
-        height: 100px;
+        width: 80%;
+        height: auto;
     }
 
     .adresse p {
-        font-size: 13px;
+        font-size:15px;
     }
 
     .adresse h2 {
-        font-size: 16px;
+        display: none;
     }
 
     .socials p {
@@ -360,4 +360,32 @@ main {
         border-radius: 8px;
     }
 
+    .imgevents img,
+    .imgnouveautés img {
+        width: 80%;
+        height: auto;
+    }
+
+    .imgevents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .imgnouveautés {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .events h2,
+    .nouveautés h2 {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
 }
