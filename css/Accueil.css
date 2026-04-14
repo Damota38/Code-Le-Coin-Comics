@@ -326,10 +326,6 @@ main {
         width: 25px;
     }
 
-    .navigation a {
-        font-size: 15px;
-    }
-
     #burger-toggle {
         display: none;
     }
