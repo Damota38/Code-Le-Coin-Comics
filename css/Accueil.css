@@ -350,6 +350,10 @@ main {
         z-index: 1;
     }
 
+    ul :hover {
+        background-color: var(--red);
+    }
+
     #burger-toggle:checked~ul {
         display: flex;
     }
