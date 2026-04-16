@@ -259,7 +259,7 @@ main {
     display: flex;
     flex-direction: row;
     text-align: center;
-    font-size: 12px;
+    font-size: 17px;
     color: var(--black);
     height: 80px;
     border-radius: 20px;
