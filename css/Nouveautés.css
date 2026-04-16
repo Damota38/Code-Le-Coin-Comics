@@ -187,7 +187,9 @@ main {
     -webkit-text-stroke: 1px var(--black);
 }
 
-.row1 {
+.row1,
+.row2,
+.row3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -198,21 +200,9 @@ main {
     box-shadow: 0 0px 3px var(--white);
 }
 
-.row2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .row2 img:hover {
     border: 3px solid var(--white);
     box-shadow: 0 0px 3px var(--white);
-}
-
-.row3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .row3 img:hover {
