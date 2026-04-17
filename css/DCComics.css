@@ -220,6 +220,11 @@ main {
     align-items: center;
 }
 
+.comicsdc img:hover {
+    border: 3px solid var(--white);
+    box-shadow: 0 0px 3px var(--white);
+} 
+
 .copyright {
     display: flex;
     height: 50px;
